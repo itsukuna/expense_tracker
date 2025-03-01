@@ -18,8 +18,8 @@ pipx install git+https://github.com/itsukuna/expense_tracker.git
 If you don't have pipx installed, you can install it first:
 
 ```sh
-python3 -m pip install --user pipx
-python3 -m pipx ensurepath
+sudo apt-get install pipx
+pipx ensurepath
 ```
 
 ## Usage
